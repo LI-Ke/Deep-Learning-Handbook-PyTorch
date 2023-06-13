@@ -5,11 +5,11 @@ import torch
 import torchvision
 from torch import nn
 
-from D2L.data.data import download_extract, get_dataloader_workers
-from D2L.models.gan.simple_gan import update_D, update_G
-from D2L.utils.accumulator import Accumulator
-from D2L.utils.func import show_images
-from D2L.utils.timer import Timer
+from Foundation.data.data import download_extract, get_dataloader_workers
+from Foundation.models.gan.simple_gan import update_D, update_G
+from Foundation.utils.accumulator import Accumulator
+from Foundation.utils.func import show_images
+from Foundation.utils.timer import Timer
 
 
 class G_block(nn.Module):

@@ -2,9 +2,9 @@ import torch
 from torch import nn
 from torch.nn import functional as F
 
-from D2L.models.computer_vision.augmentation import train_ch13
-from D2L.models.nlp.SNLI_dataset import load_data_snli
-from D2L.models.nlp.word_similarity_and_analogy import TokenEmbedding
+from Foundation.models.computer_vision.augmentation import train_ch13
+from Foundation.models.nlp.SNLI_dataset import load_data_snli
+from Foundation.models.nlp.word_similarity_and_analogy import TokenEmbedding
 
 
 def mlp(num_inputs, num_hiddens, flatten):

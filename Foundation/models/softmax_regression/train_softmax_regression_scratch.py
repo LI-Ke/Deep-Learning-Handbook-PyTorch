@@ -1,11 +1,11 @@
 import torch
 
-from D2L.data.data import load_data_fashion_mnist
-from D2L.models.linear_regression.train_linear_regression_scratch import sgd
-from D2L.models.loss import cross_entropy
-from D2L.models.model import softmax
-from D2L.utils.eval import accuracy, evaluate_accuracy, predict_fashion_mnist
-from D2L.utils.train import train
+from Foundation.data.data import load_data_fashion_mnist
+from Foundation.models.linear_regression.train_linear_regression_scratch import sgd
+from Foundation.models.loss import cross_entropy
+from Foundation.models.model import softmax
+from Foundation.utils.eval import accuracy, evaluate_accuracy, predict_fashion_mnist
+from Foundation.utils.train import train
 
 
 def net(X):

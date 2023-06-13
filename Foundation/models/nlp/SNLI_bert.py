@@ -4,11 +4,11 @@ import os
 import torch
 from torch import nn
 
-from D2L.data.data import download_extract, get_dataloader_workers
-from D2L.models.computer_vision.augmentation import train_ch13
-from D2L.models.nlp.SNLI_dataset import read_snli
-from D2L.models.nlp.bert import BERTModel, get_tokens_and_segments
-from D2L.models.nlp.text_preprocessing import Vocab, tokenize
+from Foundation.data.data import download_extract, get_dataloader_workers
+from Foundation.models.computer_vision.augmentation import train_ch13
+from Foundation.models.nlp.SNLI_dataset import read_snli
+from Foundation.models.nlp.bert import BERTModel, get_tokens_and_segments
+from Foundation.models.nlp.text_preprocessing import Vocab, tokenize
 
 
 def load_pretrained_model(pretrained_model, cache_dir, num_hidden,

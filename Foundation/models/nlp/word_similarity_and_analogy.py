@@ -2,7 +2,7 @@ import os
 import torch
 from torch import nn
 
-from D2L.data.data import download_extract
+from Foundation.data.data import download_extract
 
 
 class TokenEmbedding:

@@ -1,7 +1,7 @@
 import torch
 
-from D2L.utils.accumulator import Accumulator
-from D2L.utils.eval import accuracy, evaluate_accuracy
+from Foundation.utils.accumulator import Accumulator
+from Foundation.utils.eval import accuracy, evaluate_accuracy
 
 
 def train_epoch(net, train_iter, loss, updater):

@@ -3,8 +3,8 @@ import torch
 import torchvision
 from torch import nn
 
-from D2L.data.data import download_extract
-from D2L.models.computer_vision.augmentation import train_ch13
+from Foundation.data.data import download_extract
+from Foundation.models.computer_vision.augmentation import train_ch13
 
 
 # if param_group=True，output layer param will use 10*lr

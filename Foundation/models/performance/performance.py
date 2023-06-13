@@ -2,7 +2,7 @@ import numpy as np
 import torch
 from torch import nn
 
-from D2L.utils.timer import Timer
+from Foundation.utils.timer import Timer
 
 
 def get_net():

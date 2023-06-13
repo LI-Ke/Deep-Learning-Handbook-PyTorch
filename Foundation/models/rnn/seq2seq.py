@@ -3,11 +3,11 @@ import math
 import torch
 from torch import nn
 
-from D2L.models.rnn.custom_rnn import grad_clipping
-from D2L.models.rnn.encoder_decoder import Encoder, Decoder, EncoderDecoder
-from D2L.models.rnn.machine_translation import load_data_nmt, truncate_pad
-from D2L.utils.accumulator import Accumulator
-from D2L.utils.timer import Timer
+from Foundation.models.rnn.custom_rnn import grad_clipping
+from Foundation.models.rnn.encoder_decoder import Encoder, Decoder, EncoderDecoder
+from Foundation.models.rnn.machine_translation import load_data_nmt, truncate_pad
+from Foundation.utils.accumulator import Accumulator
+from Foundation.utils.timer import Timer
 
 
 class Seq2SeqEncoder(Encoder):

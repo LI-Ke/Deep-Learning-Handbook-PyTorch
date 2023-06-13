@@ -2,8 +2,8 @@ import torch
 from torch import nn
 from torch.nn import functional as F
 
-from D2L.data.seq_dataloader import load_data_time_machine
-from D2L.models.rnn.custom_rnn import predict, train
+from Foundation.data.seq_dataloader import load_data_time_machine
+from Foundation.models.rnn.custom_rnn import predict, train
 
 
 class RNNModel(nn.Module):

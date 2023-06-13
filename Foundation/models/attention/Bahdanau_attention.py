@@ -1,10 +1,10 @@
 import torch
 from torch import nn
 
-from D2L.models.attention.attention_score import AdditiveAttention
-from D2L.models.rnn.encoder_decoder import Decoder, EncoderDecoder
-from D2L.models.rnn.machine_translation import load_data_nmt
-from D2L.models.rnn.seq2seq import Seq2SeqEncoder, train_seq2seq, predict_seq2seq, bleu
+from Foundation.models.attention.attention_score import AdditiveAttention
+from Foundation.models.rnn.encoder_decoder import Decoder, EncoderDecoder
+from Foundation.models.rnn.machine_translation import load_data_nmt
+from Foundation.models.rnn.seq2seq import Seq2SeqEncoder, train_seq2seq, predict_seq2seq, bleu
 
 
 class AttentionDecoder(Decoder):

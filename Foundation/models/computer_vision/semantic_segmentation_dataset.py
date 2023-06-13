@@ -2,8 +2,8 @@ import os
 import torch
 import torchvision
 
-from D2L.data.data import download_extract, get_dataloader_workers
-from D2L.utils.func import show_images
+from Foundation.data.data import download_extract, get_dataloader_workers
+from Foundation.utils.func import show_images
 
 
 VOC_COLORMAP = [[0, 0, 0], [128, 0, 0], [0, 128, 0], [128, 128, 0],

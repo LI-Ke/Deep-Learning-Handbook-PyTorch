@@ -1,10 +1,10 @@
 import torch
 from torch import nn
 
-from D2L.models.nlp.bert import BERTModel, get_tokens_and_segments
-from D2L.models.nlp.pretrain_bert_dataset import load_data_wiki
-from D2L.utils.accumulator import Accumulator
-from D2L.utils.timer import Timer
+from Foundation.models.nlp.bert import BERTModel, get_tokens_and_segments
+from Foundation.models.nlp.pretrain_bert_dataset import load_data_wiki
+from Foundation.utils.accumulator import Accumulator
+from Foundation.utils.timer import Timer
 
 
 def _get_batch_loss_bert(net, loss, vocab_size, tokens_X,

@@ -1,9 +1,9 @@
 import torch
 from torch import nn
 
-from D2L.data.seq_dataloader import load_data_time_machine
-from D2L.models.rnn.custom_rnn import RNNModelScratch, train
-from D2L.models.rnn.train_rnn_concise import RNNModel
+from Foundation.data.seq_dataloader import load_data_time_machine
+from Foundation.models.rnn.custom_rnn import RNNModelScratch, train
+from Foundation.models.rnn.train_rnn_concise import RNNModel
 
 
 def get_lstm_params(vocab_size, num_hidden, device):

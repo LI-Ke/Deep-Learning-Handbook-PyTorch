@@ -3,13 +3,13 @@ import pandas as pd
 import torch
 from torch import nn
 
-from D2L.models.attention.Bahdanau_attention import AttentionDecoder
-from D2L.models.attention.multihead_attention import MultiHeadAttention
-from D2L.models.attention.positional_encoding import PositionalEncoding
-from D2L.models.attention.vis import show_heatmaps
-from D2L.models.rnn.encoder_decoder import Encoder, EncoderDecoder
-from D2L.models.rnn.machine_translation import load_data_nmt
-from D2L.models.rnn.seq2seq import train_seq2seq, predict_seq2seq, bleu
+from Foundation.models.attention.Bahdanau_attention import AttentionDecoder
+from Foundation.models.attention.multihead_attention import MultiHeadAttention
+from Foundation.models.attention.positional_encoding import PositionalEncoding
+from Foundation.models.attention.vis import show_heatmaps
+from Foundation.models.rnn.encoder_decoder import Encoder, EncoderDecoder
+from Foundation.models.rnn.machine_translation import load_data_nmt
+from Foundation.models.rnn.seq2seq import train_seq2seq, predict_seq2seq, bleu
 
 
 class PositionWiseFFN(nn.Module):

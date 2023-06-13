@@ -5,10 +5,10 @@ import torchvision
 from torch import nn
 from torch.nn import functional as F
 
-from D2L.models.computer_vision.object_detection import multibox_prior, multibox_detection, show_bboxes, multibox_target
-from D2L.models.computer_vision.object_detection_dataset import load_data_bananas
-from D2L.utils.accumulator import Accumulator
-from D2L.utils.timer import Timer
+from Foundation.models.computer_vision.object_detection import multibox_prior, multibox_detection, show_bboxes, multibox_target
+from Foundation.models.computer_vision.object_detection_dataset import load_data_bananas
+from Foundation.utils.accumulator import Accumulator
+from Foundation.utils.timer import Timer
 
 
 def cls_predictor(num_inputs, num_anchors, num_classes):

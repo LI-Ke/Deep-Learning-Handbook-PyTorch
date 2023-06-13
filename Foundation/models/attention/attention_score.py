@@ -2,8 +2,8 @@ import math
 import torch
 from torch import nn
 
-from D2L.models.attention.vis import show_heatmaps
-from D2L.models.rnn.seq2seq import sequence_mask
+from Foundation.models.attention.vis import show_heatmaps
+from Foundation.models.rnn.seq2seq import sequence_mask
 
 
 def masked_softmax(X, valid_lens):

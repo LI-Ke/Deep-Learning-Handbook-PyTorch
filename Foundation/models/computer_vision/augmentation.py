@@ -4,12 +4,12 @@ from torch import nn
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 
-from D2L.data.data import get_dataloader_workers
-from D2L.models.cnn.lenet import evaluate_accuracy_gpu
-from D2L.models.performance.train_multi_gpu_concise import resnet18
-from D2L.utils.accumulator import Accumulator
-from D2L.utils.eval import accuracy
-from D2L.utils.timer import Timer
+from Foundation.data.data import get_dataloader_workers
+from Foundation.models.cnn.lenet import evaluate_accuracy_gpu
+from Foundation.models.performance.train_multi_gpu_concise import resnet18
+from Foundation.utils.accumulator import Accumulator
+from Foundation.utils.eval import accuracy
+from Foundation.utils.timer import Timer
 
 
 def load_cifar10(is_train, augs, batch_size):

@@ -1,9 +1,9 @@
 import torch
 from torch import nn
 
-from D2L.data.data import load_data_fashion_mnist
-from D2L.models.attention.multihead_attention import MultiHeadAttention
-from D2L.models.computer_vision.augmentation import train_ch13
+from Foundation.data.data import load_data_fashion_mnist
+from Foundation.models.attention.multihead_attention import MultiHeadAttention
+from Foundation.models.computer_vision.augmentation import train_ch13
 
 
 class PatchEmbedding(nn.Module):

@@ -2,9 +2,9 @@ import torch
 from torch import nn
 import matplotlib.pyplot as plt
 
-from D2L.data.data import load_array
-from D2L.utils.accumulator import Accumulator
-from D2L.utils.timer import Timer
+from Foundation.data.data import load_array
+from Foundation.utils.accumulator import Accumulator
+from Foundation.utils.timer import Timer
 
 
 def update_D(X, Z, net_D, net_G, loss, trainer_D):

@@ -2,10 +2,10 @@ import torch
 from torch import nn
 from torch.nn import functional as F
 
-from D2L.data.data import load_data_fashion_mnist
-from D2L.models.cnn.lenet import evaluate_accuracy_gpu
-from D2L.models.optim import sgd
-from D2L.utils.timer import Timer
+from Foundation.data.data import load_data_fashion_mnist
+from Foundation.models.cnn.lenet import evaluate_accuracy_gpu
+from Foundation.models.optim import sgd
+from Foundation.utils.timer import Timer
 
 
 # definition of model

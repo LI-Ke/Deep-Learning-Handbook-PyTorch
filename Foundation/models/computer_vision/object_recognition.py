@@ -7,12 +7,12 @@ import torch
 import torchvision
 from torch import nn
 
-from D2L.data.data import download_extract
-from D2L.models.cnn.lenet import evaluate_accuracy_gpu
-from D2L.models.computer_vision.augmentation import train_batch_ch13
-from D2L.models.performance.train_multi_gpu_concise import resnet18
-from D2L.utils.accumulator import Accumulator
-from D2L.utils.timer import Timer
+from Foundation.data.data import download_extract
+from Foundation.models.cnn.lenet import evaluate_accuracy_gpu
+from Foundation.models.computer_vision.augmentation import train_batch_ch13
+from Foundation.models.performance.train_multi_gpu_concise import resnet18
+from Foundation.utils.accumulator import Accumulator
+from Foundation.utils.timer import Timer
 
 
 def read_csv_labels(fname):

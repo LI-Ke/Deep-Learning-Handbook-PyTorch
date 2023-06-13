@@ -1,10 +1,10 @@
 import torch
 from torch import nn
 
-from D2L.data.data import load_data_fashion_mnist
-from D2L.models.cnn.lenet import evaluate_accuracy_gpu
-from D2L.models.cnn.resnet import Residual
-from D2L.utils.timer import Timer
+from Foundation.data.data import load_data_fashion_mnist
+from Foundation.models.cnn.lenet import evaluate_accuracy_gpu
+from Foundation.models.cnn.resnet import Residual
+from Foundation.utils.timer import Timer
 
 
 def resnet18(num_classes, in_channels=1):

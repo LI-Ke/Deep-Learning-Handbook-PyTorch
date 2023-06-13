@@ -5,10 +5,10 @@ from torch import nn
 from torch.nn import functional as F
 import matplotlib.pyplot as plt
 
-from D2L.data.data import download_extract
-from D2L.models.computer_vision.augmentation import train_ch13
-from D2L.models.computer_vision.semantic_segmentation_dataset import load_data_voc, VOC_COLORMAP, read_voc_images
-from D2L.utils.func import show_images
+from Foundation.data.data import download_extract
+from Foundation.models.computer_vision.augmentation import train_ch13
+from Foundation.models.computer_vision.semantic_segmentation_dataset import load_data_voc, VOC_COLORMAP, read_voc_images
+from Foundation.utils.func import show_images
 
 
 def bilinear_kernel(in_channels, out_channels, kernel_size):

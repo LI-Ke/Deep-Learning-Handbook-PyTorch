@@ -4,7 +4,7 @@ import torch
 from torch import nn
 import matplotlib.pyplot as plt
 
-from D2L.data.data import load_array, download
+from Foundation.data.data import load_array, download
 
 
 # baseline model

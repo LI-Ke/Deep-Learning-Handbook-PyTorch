@@ -2,9 +2,9 @@ import os
 import random
 import torch
 
-from D2L.data.data import get_dataloader_workers, download_extract
-from D2L.models.nlp.bert import get_tokens_and_segments
-from D2L.models.nlp.text_preprocessing import tokenize, Vocab
+from Foundation.data.data import get_dataloader_workers, download_extract
+from Foundation.models.nlp.bert import get_tokens_and_segments
+from Foundation.models.nlp.text_preprocessing import tokenize, Vocab
 
 
 def _read_wiki(data_dir):

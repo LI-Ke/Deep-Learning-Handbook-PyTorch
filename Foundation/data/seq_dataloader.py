@@ -2,7 +2,7 @@ import random
 
 import torch
 
-from D2L.models.nlp.text_preprocessing import load_corpus_time_machine
+from Foundation.models.nlp.text_preprocessing import load_corpus_time_machine
 
 
 def seq_data_iter_random(corpus, batch_size, num_steps):

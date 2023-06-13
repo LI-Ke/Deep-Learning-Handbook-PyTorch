@@ -4,8 +4,8 @@ import random
 import torch
 from torch import nn
 
-from D2L.data.data import download_extract, get_dataloader_workers
-from D2L.models.nlp.text_preprocessing import count_corpus, Vocab
+from Foundation.data.data import download_extract, get_dataloader_workers
+from Foundation.models.nlp.text_preprocessing import count_corpus, Vocab
 
 
 def read_ptb(cache_dir):

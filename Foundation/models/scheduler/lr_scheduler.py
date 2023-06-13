@@ -4,10 +4,10 @@ from torch import nn
 from torch.optim import lr_scheduler
 import matplotlib.pyplot as plt
 
-from D2L.data.data import load_data_fashion_mnist
-from D2L.models.cnn.lenet import evaluate_accuracy_gpu
-from D2L.utils.accumulator import Accumulator
-from D2L.utils.eval import accuracy
+from Foundation.data.data import load_data_fashion_mnist
+from Foundation.models.cnn.lenet import evaluate_accuracy_gpu
+from Foundation.utils.accumulator import Accumulator
+from Foundation.utils.eval import accuracy
 
 
 def net_fn():

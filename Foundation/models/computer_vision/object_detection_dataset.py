@@ -5,9 +5,9 @@ import pandas as pd
 import torch
 import torchvision
 
-from D2L.data.data import download_extract
-from D2L.models.computer_vision.object_detection import show_bboxes
-from D2L.utils.func import show_images
+from Foundation.data.data import download_extract
+from Foundation.models.computer_vision.object_detection import show_bboxes
+from Foundation.utils.func import show_images
 
 
 def read_data_bananas(cache_dir, is_train=True):

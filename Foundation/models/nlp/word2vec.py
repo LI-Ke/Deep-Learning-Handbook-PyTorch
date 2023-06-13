@@ -2,9 +2,9 @@ import math
 import torch
 from torch import nn
 
-from D2L.models.nlp.data import load_data_ptb
-from D2L.utils.accumulator import Accumulator
-from D2L.utils.timer import Timer
+from Foundation.models.nlp.data import load_data_ptb
+from Foundation.utils.accumulator import Accumulator
+from Foundation.utils.timer import Timer
 
 
 def skip_gram(center, contexts_and_negatives, embed_v, embed_u):

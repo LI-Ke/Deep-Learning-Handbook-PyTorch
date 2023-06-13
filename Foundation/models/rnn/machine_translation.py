@@ -2,8 +2,8 @@ import os
 
 import torch
 
-from D2L.data.data import download_extract, load_array
-from D2L.models.nlp.text_preprocessing import Vocab
+from Foundation.data.data import download_extract, load_array
+from Foundation.models.nlp.text_preprocessing import Vocab
 
 
 def read_data_nmt(cache_dir):

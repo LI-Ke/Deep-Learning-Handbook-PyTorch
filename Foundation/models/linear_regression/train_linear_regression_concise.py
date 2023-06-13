@@ -1,8 +1,8 @@
 import torch
 from torch import nn
 
-from D2L.data.data import load_array
-from D2L.utils.func import synthetic_data
+from Foundation.data.data import load_array
+from Foundation.utils.func import synthetic_data
 
 
 if __name__ == '__main__':

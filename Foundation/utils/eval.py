@@ -1,8 +1,8 @@
 import torch
 
-from D2L.data.data import get_fashion_mnist_labels
-from D2L.utils.accumulator import Accumulator
-from D2L.utils.func import show_images
+from Foundation.data.data import get_fashion_mnist_labels
+from Foundation.utils.accumulator import Accumulator
+from Foundation.utils.func import show_images
 
 
 def accuracy(y_hat, y):

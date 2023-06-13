@@ -3,9 +3,9 @@ import re
 import torch
 from torch import nn
 
-from D2L.data.data import download_extract, get_dataloader_workers
-from D2L.models.nlp.text_preprocessing import tokenize, Vocab
-from D2L.models.rnn.machine_translation import truncate_pad
+from Foundation.data.data import download_extract, get_dataloader_workers
+from Foundation.models.nlp.text_preprocessing import tokenize, Vocab
+from Foundation.models.rnn.machine_translation import truncate_pad
 
 
 def read_snli(data_dir, is_train):

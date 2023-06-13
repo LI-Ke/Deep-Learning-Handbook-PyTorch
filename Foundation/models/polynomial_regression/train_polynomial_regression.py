@@ -3,8 +3,8 @@ import numpy as np
 import torch
 from torch import nn
 
-from D2L.data.data import load_array
-from D2L.utils.train import train_epoch
+from Foundation.data.data import load_array
+from Foundation.utils.train import train_epoch
 
 
 def train(train_features, test_features, train_labels, test_labels, num_epochs=400):

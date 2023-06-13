@@ -1,11 +1,11 @@
 import torch
 from torch import nn
 
-from D2L.data.data import load_array
-from D2L.models.loss import squared_loss
-from D2L.models.model import linreg
-from D2L.models.optim import sgd
-from D2L.utils.func import synthetic_data
+from Foundation.data.data import load_array
+from Foundation.models.loss import squared_loss
+from Foundation.models.model import linreg
+from Foundation.models.optim import sgd
+from Foundation.utils.func import synthetic_data
 
 
 def init_params():

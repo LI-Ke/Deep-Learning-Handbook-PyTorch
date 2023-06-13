@@ -11,9 +11,9 @@ import torchvision
 from torch.utils import data
 from torchvision import transforms
 
-from D2L.constant.constant import DATA_HUB
-from D2L.utils.func import show_images
-from D2L.utils.timer import Timer
+from Foundation.constant.constant import DATA_HUB
+from Foundation.utils.func import show_images
+from Foundation.utils.timer import Timer
 
 
 def data_iter(batch_size, features, labels):

@@ -2,16 +2,16 @@ import os
 import torch
 from torch import nn
 
-from D2L.data.data import download_extract, load_array
-from D2L.models.cnn.lenet import evaluate_accuracy_gpu
-from D2L.models.computer_vision.augmentation import train_ch13
-from D2L.models.nlp.sentiment_analysis_biRNN import load_data_imdb, predict_sentiment
-from D2L.models.nlp.text_preprocessing import tokenize, Vocab
-from D2L.models.nlp.word_similarity_and_analogy import TokenEmbedding
-from D2L.models.rnn.machine_translation import truncate_pad
-from D2L.utils.accumulator import Accumulator
-from D2L.utils.eval import accuracy
-from D2L.utils.timer import Timer
+from Foundation.data.data import download_extract, load_array
+from Foundation.models.cnn.lenet import evaluate_accuracy_gpu
+from Foundation.models.computer_vision.augmentation import train_ch13
+from Foundation.models.nlp.sentiment_analysis_biRNN import load_data_imdb, predict_sentiment
+from Foundation.models.nlp.text_preprocessing import tokenize, Vocab
+from Foundation.models.nlp.word_similarity_and_analogy import TokenEmbedding
+from Foundation.models.rnn.machine_translation import truncate_pad
+from Foundation.utils.accumulator import Accumulator
+from Foundation.utils.eval import accuracy
+from Foundation.utils.timer import Timer
 
 
 class TextCNN(nn.Module):

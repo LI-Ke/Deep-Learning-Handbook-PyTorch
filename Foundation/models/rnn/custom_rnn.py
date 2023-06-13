@@ -3,10 +3,10 @@ import torch
 from torch import nn
 from torch.nn import functional as F
 
-from D2L.data.seq_dataloader import load_data_time_machine
-from D2L.models.optim import sgd
-from D2L.utils.accumulator import Accumulator
-from D2L.utils.timer import Timer
+from Foundation.data.seq_dataloader import load_data_time_machine
+from Foundation.models.optim import sgd
+from Foundation.utils.accumulator import Accumulator
+from Foundation.utils.timer import Timer
 
 
 def get_params(vocab_size, num_hidden, device):

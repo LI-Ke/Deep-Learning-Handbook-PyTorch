@@ -2,7 +2,7 @@ import math
 import torch
 from torch import nn
 
-from D2L.models.attention.attention_score import DotProductAttention
+from Foundation.models.attention.attention_score import DotProductAttention
 
 
 def transpose_qkv(X, num_heads):

@@ -1,8 +1,8 @@
 import torch
 from torch import nn
 
-from D2L.data.data import load_data_fashion_mnist
-from D2L.models.cnn.lenet import train_gpu
+from Foundation.data.data import load_data_fashion_mnist
+from Foundation.models.cnn.lenet import train_gpu
 
 
 def nin_block(in_channels, out_channels, kernel_size, strides, padding):

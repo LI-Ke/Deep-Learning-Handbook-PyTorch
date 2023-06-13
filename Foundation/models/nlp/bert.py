@@ -1,7 +1,7 @@
 import torch
 from torch import nn
 
-from D2L.models.attention.transformer import EncoderBlock
+from Foundation.models.attention.transformer import EncoderBlock
 
 
 def get_tokens_and_segments(tokens_a, tokens_b=None):

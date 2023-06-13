@@ -1,9 +1,9 @@
 import torch
 from torch import nn
 
-from D2L.data.data import load_data_fashion_mnist
-from D2L.utils.eval import predict_fashion_mnist
-from D2L.utils.train import train
+from Foundation.data.data import load_data_fashion_mnist
+from Foundation.utils.eval import predict_fashion_mnist
+from Foundation.utils.train import train
 
 
 if __name__ == '__main__':

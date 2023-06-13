@@ -3,10 +3,10 @@ import torch
 import torchvision
 from torch import nn
 
-from D2L.data.data import download_extract
-from D2L.models.computer_vision.object_recognition import read_csv_labels, reorg_train_valid, reorg_test
-from D2L.utils.accumulator import Accumulator
-from D2L.utils.timer import Timer
+from Foundation.data.data import download_extract
+from Foundation.models.computer_vision.object_recognition import read_csv_labels, reorg_train_valid, reorg_test
+from Foundation.utils.accumulator import Accumulator
+from Foundation.utils.timer import Timer
 
 
 def reorg_dog_data(data_dir, valid_ratio):

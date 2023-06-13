@@ -2,7 +2,7 @@ import  matplotlib.pyplot as plt
 import torch
 from torch import nn
 
-from D2L.models.attention.vis import show_heatmaps
+from Foundation.models.attention.vis import show_heatmaps
 
 
 def f(x):

@@ -1,10 +1,10 @@
 import torch
 from torch import nn
 
-from D2L.data.data import load_data_fashion_mnist
-from D2L.utils.accumulator import Accumulator
-from D2L.utils.eval import accuracy
-from D2L.utils.timer import Timer
+from Foundation.data.data import load_data_fashion_mnist
+from Foundation.utils.accumulator import Accumulator
+from Foundation.utils.eval import accuracy
+from Foundation.utils.timer import Timer
 
 
 def evaluate_accuracy_gpu(net, data_iter, device=None):
